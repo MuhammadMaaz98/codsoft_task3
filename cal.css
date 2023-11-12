@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+body{
+    background:url(cal.jpg);
+
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caculator{
+  background:  #262742;
+  padding: 20px;
+  border-radius: 15px;
+
+}
+
+.caculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(36, 30, 30);
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: -3px -5px 10px rgba( 255 , 255 , 255 , 0.1),5px 5px 10px rgba( 0 , 0, 0, 0.1);
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+
+.caculator form input:hover{
+    cursor: pointer;
+    background: steelblue;
+    border: none;
+    outline: none;
+}
+
+form .screen{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+
+form .screen input{
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+    border: none;
+    background-color: steelblue;
+}
+
+form input.zero{
+    width: 125px;
+}
+
+form input.equal{
+    background: steelblue;
+}
+
+form input.equal:hover{
+    background: #262742;
+    border: none;
+}
+
+form input.delete
+{
+    font-size: 15px;
+    color: green;
+}
+
+form input.operators{
+    border: none;
+   background:steelblue;
+}
+
+form input.operators:hover{
+    background: #262742;
+    border: none;
+}
